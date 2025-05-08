@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffffff, #e3f3fc);
+  color: #0d2b54;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+header .logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+header h1 span {
+  color: #f58220; /* Orange */
+}
+
+.chairman {
+  background: #0d2b54; /* Navy Blue */
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.chairman .photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00b7e4; /* Sky Blue */
+  margin-bottom: 15px;
+}
+
+.chairman h2 {
+  margin: 10px 0;
+  color: #f58220;
+  font-size: 1.8rem;
+}
+
+.chairman p {
+  font-size: 1rem;
+  color: #e3f3fc;
+}
